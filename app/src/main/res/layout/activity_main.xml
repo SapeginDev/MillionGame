@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/leanearLayout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tittle"
+        android:text="@string/question"
+        android:textSize="10pt"
+        android:gravity="center_horizontal|top"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:id="@+id/messageCheerUp"
+        android:textSize="12pt"
+        android:gravity="center_horizontal|top"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:textColor="#E80B0B"/>
+
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="@string/button_text"
+        android:onClick="onClickButton"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center">
+        <TableRow>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/timer"
+                android:text="@string/timer_text"
+                android:paddingRight="10dp"
+                android:textSize="15pt"
+                android:textColor="#D10505"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/timeElapsed"
+                android:text="@string/timeElapsed_text"
+                android:paddingRight="10dp"/>
+        </TableRow>
+    </TableLayout>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/positionX"-->
+<!--        android:text="X:"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/positionY"-->
+<!--        android:text="Y:"/>-->
+</LinearLayout>

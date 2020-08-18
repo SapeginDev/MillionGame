@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Кто хочет стать Миллионером</string>
+    <string name="button_text">ДА ХОЧУ!!!</string>
+    <string name="timer_text"></string>
+    <string name="timeElapsed_text"></string>
+    <string name="tittle_name">Хочешь получить миллион?</string>
+    <string name="question">Хочешь получить миллион?</string>
+    <string-array name="cheerUpStrings">
+        <item>Ну что Данила, не выходит каменный цветок?</item>
+        <item>Давай, давай не сдавайся!</item>
+        <item>Ну, ну..., еще немного...</item>
+        <item>Ну поднажми....</item>
+        <item>Миллион почти твой!</item>
+        <item>Да елочки.... Сколько это может продолжаться?</item>
+        <item>Может тебе очки одеть? Плохо видишь?</item>
+        <item>Бедняга, может пойти промыть глаза?</item>
+        <item>Почему не выходит? Может сядешь по другому?</item>
+        <item>Да сколько это может продолжаться...?</item>
+        <item>Что-то не так, может передохнешь?</item>
+    </string-array>
+</resources>
